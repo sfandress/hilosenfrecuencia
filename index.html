@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilos En Frecuencia</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav>
+            <div class="logo"> 🎵 Hilos en Frecuencia ⚡</div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#propuesta" class="nav-link">Nuestra Propuesta</a></li>
+                <li><a href="#fundamentacion" class="nav-link">Nuestro Proceso</a></li>
+                <li><a href="#materiales" class="nav-link">Sensores</a></li>
+                <li><a href="#fuentes" class="nav-link">Fuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== SECCIÓN 1: PROPUESTA DEL PROYECTO ===== -->
+  
+
+   <section id="propuesta">
+  <h1>Transformando Ideas en Realidad</h1>
+  
+  <p class="texto-limitado">
+    ¿Te imaginás controlar luces y música solo con mover la mano? En este proyecto combinamos tecnología, creatividad y programación para diseñar un sistema musical completamente interactivo, que reacciona a los gestos humanos como si fuera magia. Utilizando un sensor de gestos logramos que los movimientos en el aire cobren vida: se prenden luces de colores, suenan pistas musicales y todo ocurre sin tocar un solo botón.
+  </p>
+  <p>Este proyecto nace con la intención de colaborar con experiencias anteriores, como Tejidos Sonoros del CPEM Nº90, y de mejorar el ambiente de estudio para quienes vendrán en el futuro. La idea es ofrecer una manera de enseñar y aprender más didáctica, clara y útil, que facilite a los próximos estudiantes la realización de proyectos que despierten su interés en los años siguientes.</p>
+</section>
+
+<style>
+  .texto-limitado {
+    max-width: 123ch; /* Limita el ancho a 123 caracteres */
+    text-align: justify; /* Opcional: justifica para mejor presentación */
+    line-height: 1.6; /* Mejor legibilidad */
+    margin: 0 auto; /* Centra el bloque */
+  }
+</style>
+
+
+    <!-- ===== SECCIÓN 2: FUNDAMENTACIÓN CON FOTOS ===== -->
+    <section id="fundamentacion">
+        <div class="container">
+            <h2 class="section-title">Nuestro Proceso</h2>
+            <div class="galeria">
+                <div class="foto-card">
+                    <img src="Cirotuntunsahur.jpeg" alt="Trabajo en equipo">
+                    <div class="foto-caption">
+                        <strong>Pruebas iniciales</strong><br>
+                        Propuestas para proyectos, prueba de placas y sensores, aprendizaje de programacion en html y css, etc
+                    </div>
+                </div>
+                <div class="foto-card">
+                    <img src="Placa.jpeg" alt="Planificación">
+                    <div class="foto-caption">
+                        <strong>Armado</strong><br>
+                        Proyecto establecido y experimentacion con los sensores en la placa Arduino UNO
+                    </div>
+                </div>
+                <div class="foto-card">
+                    <img src="EsquemaUNO.jpg" alt="Diseño">
+                    <div class="foto-caption">
+                        <strong>Diseño</strong><br>
+                        Diseño de una landing page, programacion en bloques, esquema grafico de la placa UNO e incorporacion de una 2° placa
+                    </div>
+                </div>
+                <div class="foto-card">
+                    <img src="Final.jpg" alt="Resultados">
+                    <div class="foto-caption">
+                        <strong>Ajustes finales</strong><br>
+                        Pruebas en la logica, ensamblaje de ambas placas y finalizacion de la landing page
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN 3: LISTA DE MATERIALES ===== -->
+    <section id="materiales">
+        <div class="container">
+            <h2 class="section-title">Materiales </h2>
+            <div class="materiales-grid">
+                <div class="material-item">
+                    <div class="material-icon">💻</div>
+                    <div class="material-text">
+                        <h3>Arduino UNO</h3>
+                        <p>Coordina el sensor de gestos y controla la reproducción de sonidos de acuerdo al movimiento detectado.</p>
+                    </div>
+                </div>
+                <div class="material-item">
+                    <div class="material-icon">🔌</div>
+                    <div class="material-text">
+                        <h3>PAJ 7620</h3>
+                        <p>Sensor que capta gestos de la mano en el aire, permitiendo cambiar pistas o activar efectos musicales sin contacto físico.</p>
+                    </div>
+                </div>
+                <div class="material-item">
+                    <div class="material-icon">🔌</div>
+                    <div class="material-text">
+                        <h3>YX 5300</h3>
+                        <p>Módulo de audio que reproduce las pistas MP3 almacenadas, respondiendo a las órdenes del Arduino según los gestos.</p>
+                    </div>
+                </div>
+                <div class="material-item">
+                    <div class="material-icon">💻</div>
+                    <div class="material-text">
+                        <h3>ESP32</h3>
+                        <p>Detecta toques en parches o botones de aluminio gracias a sus pines táctiles, vinculando la interacción con la idea de frecuencia en los telares.</p>
+                    </div>
+                </div>
+                <div class="material-item">
+                    <div class="material-icon">🧵</div>
+                    <div class="material-text">
+                        <h3>Telares</h3>
+                        <p>Telares utilizados previamente en el proyecto "tejidos sonoros" CPEM N°90 que accionaban sensores de touch</p>
+                    </div>
+                </div>
+                <div class="material-item">
+                    <div class="material-icon">🎨</div>
+                    <div class="material-text">
+                        <h3>Herramientas de Codigo (visual studio, steamakersblocks, etc)</h3>
+                        <p>Software para diseño de paginas web y programacion en bloques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN 4: FUENTES DE INVESTIGACIÓN ===== -->
+    <section id="fuentes">
+        <div class="container">
+            <h2 class="section-title">Referencias y Fuentes</h2>
+            <div class="fuentes-list">
+                <a href="https://www.arduino.cc/en/Main/ArduinoBoardUno" class="fuente-link">
+                    <h3>📖 Documentacion online sobra la placa Arduino UNO</h3>
+                <a href="https://www.steamakersblocks.com/web/site/doc" class="fuente-link">
+                    <h3>🌐 Biblioteca online de Steamakersblocks</h3>
+                </a>
+                <a href="#" class="fuente-link">
+                    <h3>👥 Recursos didacticos</h3>
+                    <p>Material generado y aportado por los docentes a través de la plataforma Lazos</p>
+                </a>
+                <a href="Tejido Sonoro, CPEM N°90, Feria de ciencias Educativa 2025.pdf" class="fuente-link">
+                    <h3>Base de nuestra propuesta </h3>
+                    <p>Documento CPEM N°90 Tejido Sonoro. Villa Pehuenia: Feria de Ciencias Educativa, 2025</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p class="copyright">&copy; 2025 CPEM N°90, Hilos en Frecuencia</p>
+     <p>Equipo de trabajo</p>
+     <ul>
+        <li>Iñaki Ortega</li>
+        <li>Leandro Ñanco</li>
+    <li>Ciro Bravo</li>
+    </ul>
+    
+    </footer>
+
+    <!-- ===== JAVASCRIPT PARA FUNCIONALIDAD ===== -->
+    <script>
+        // Menú hamburguesa en móviles
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Cerrar menú al hacer clic en un enlace (móviles)
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Resaltar sección activa en el menú al hacer scroll
+        const sections = document.querySelectorAll('section');
+        const navItems = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href').slice(1) === current) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
