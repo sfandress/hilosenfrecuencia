@@ -212,6 +212,31 @@
             color: var(--color-texto-claro);
         }
 
+        /*boton seccion dos fotos
+                .boton-estilo {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  background-color: var(--color-principal);
+  color: var(--color-blanco);
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: var(--sombra);
+  transition: all 0.3s ease;
+}
+
+.boton-estilo:hover {
+  background-color: var(--color-principal-hover);
+  transform: translateY(-3px);
+  box-shadow: var(--sombra-hover);
+}
+.boton-centro {
+  text-align: center;     
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+    */
+
         /* ===== SECCIÓN 3: LISTA DE MATERIALES ===== */
         #materiales {
             background-color: var(--color-fondo);
